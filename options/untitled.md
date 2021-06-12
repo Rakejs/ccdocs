@@ -1,0 +1,43 @@
+---
+description: permission Structure
+---
+
+# permission
+
+```coffeescript
+admin: "ADMINISTRATOR",
+manageserver: "MANAGE_GUILD",
+kick: "KICK_MEMBERS",
+ban: "BAN_MEMBERS",
+manageroles: "MANAGE_ROLES",
+managechannels: "MANAGE_CHANNELS",
+managewebhooks: "MANAGE_WEBHOOKS",
+managemessages: "MANAGE_MESSAGES",
+viewauditlog: "VIEW_AUDIT_LOG",
+managenicknames: "MANAGE_NICKNAMES",
+sendmessages: "SEND_MESSAGES",
+readmessages: "READ_MESSAGE_HISTORY", 
+movemembers: "MOVE_MEMBERS", 
+manageemojis: "MANAGE_EMOJIS", 
+viewguildinsights: "VIEW_GUILD_INSIGHTS", 
+mentioneveryone: "MENTION_EVERYONE", 
+embedlinks: "EMBED_LINKS", 
+viewchannel: "VIEW_CHANNEL", 
+createinvite: "CREATE_INSTANT_INVITE", 
+mutemembers: "MUTE_MEMBERS", 
+speak: "SPEAK", 
+deafenmembers: "DEAFEN_MEMBERS", 
+attachfiles: "ATTACH_FILES", 
+connect: "CONNECT"
+```
+
+this List shows the permission 
+
+```text
+$onlyBotPerms[admin;no Perms]
+like in this example
+//admin is == ADMINISTRATOR
+```
+
+
+
