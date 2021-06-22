@@ -8,17 +8,15 @@ description: Custom Command is highly configurable.
 
 You have to set a channelused for custom commands with trigger **Interval/Member add/Member leave** or if you want to output Errors or returned Value  in an other channel.
 
-#### 
-
 {% hint style="success" %}
-You want more Specific Ignore Channels or Ids or Perm System then check only and blacklist functions. They have more feature
+You want more Specific Ignore Channels or Ids or Perm System then check only and blacklist functions. They have more features
 {% endhint %}
 
 #### Run Only in Channels
 
 ![I have pressed the button &#x1F609;](../.gitbook/assets/image%20%284%29.png)
 
-**Run only runs only in the channels you have selected**
+**Only Runs in the channels/categories you have selected**
 
 #### **Ignore Roles**
 
