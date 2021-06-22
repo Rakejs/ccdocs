@@ -52,7 +52,7 @@ You can trigger on all message too by using %all% as trigger
 
 ## Reaction
 
-The cc gets executed ,when a member reacts to a Message. There different types like Reaction add /remove or both or on a specific message id 
+The cc gets executed ,when a member reacts to a **message**. You can specify if it should trigger on reaction add / remove or on a specific message\(You have to use the id for it\)
 
 ![execute it if somebody adds the reaction &#x1F44D;](../.gitbook/assets/image%20%289%29.png)
 
@@ -62,7 +62,7 @@ The cc gets executed ,when a member reacts to a Message. There different types l
 
 ![execute it if .. a/r the reaction &#x1F44D; on the message with the given id](../.gitbook/assets/image%20%2833%29.png)
 
-There a possibility add,👍=8797908908088 to. 
+There a possibility add,👍=8797908908088 too, which will only trigger on reaction add to the message with id 8797...
 
 ## Member add/leave
 
@@ -99,7 +99,11 @@ Don't forget to set channelUsed, else the bot can send any messages
 
 ## Voice join/leave
 
-The cc gets executed when a user joins a voice channel or leaves it. You can limit it too join and leave or bot
+The cc gets executed when a user joins a voice channel or leaves it. You can set Trigger to:
+
+* **join**  executes only if somebody joins a vc
+* **leave**  executes only if somebody leaves a vc
+* **empty** executes on both
 
 ![executes on voice join](../.gitbook/assets/image%20%2864%29.png)
 
