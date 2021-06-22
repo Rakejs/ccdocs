@@ -44,29 +44,48 @@ This is just a demo 😊
 
 ## Code Syntax
 
-The Syntax has been inspired from bdfd/dbd.js originally. The syntax so very similar and we try to keep error handling the same to have a really good ux. 
+The Syntax has been inspired from BDFD originally. 
 
 {% hint style="warning" %}
-We are not affiliated with dbd.js/bdfd/bd-script. We just use their syntax  
-btw **Functions gets executed Reversed** so think a little bit **upside-down**
+We are not affiliated with BDFD. We just use their syntax
 {% endhint %}
 
 ### Syntax
 
-**$**  -&gt; every Function starts with a usd  
-**Functionname** --&gt; function name like sub,sum ..  
-//only with functions with parameters  
-**\[**-&gt;start of Parameter  
-**value1**-&gt;your first Value  
-**;** -&gt; Separator. This Separator separates the value  
-**second value** .....separte every value with a ;  
-**\]**end of Function  
-  
-**\*functions** are case sensitive.So `$addCmdReactions[ 🧨;  😉]` will not work since it has white space. So remove unnecessary white spaces,
+Functions returns Value or execute something.  
+There are two type of functions:
 
-The Functions return values or execute something. like $year would replace it with 2021
+* Functions with parameter \($giveRoles\[$authorID;080887889\]\)
+* Functions without parameter\($channelID\)
 
-Example:
+{% hint style="info" %}
+**What is a parameter?**  
+Parameters are Value ,which a Function needs. To understand it let us see the usage of **$giveRoles\[authorid;roleid\]**  
+1.Parameter is authorID. The authorID is the id of a User.To get the authorid we will use another function named **$authorID**, which returns the id of the executor
+
+2.Parameter is the roleid.To get the roleid,you can copy the id of the role you want to give or use an anither function named **$roleID\[rolename\]**
+{% endhint %}
+
+* Every Function starts with a **$**
+* After it the function name comes like **giveroles**
+* If the Function needs parameters you open it with **\[** **\]** 
+* Every Parameter gets separated with **;** 
+
+So your result would be **$giveRoles\[authorid;roleid\]**
+
+{% hint style="info" %}
+**Functions with many Parameters!**  
+Did you know that some functions can have more then provided parameters for example **$randomText\[text1;text2\]**   
+You can add more then 2 text just split them up with ;  
+like **$randomText\[text1;text2;text3;text4\]** and so on ****
+{% endhint %}
+
+{% hint style="info" %}
+**Function names are case insensitive !**  
+That's why $authorID and $authorid would return the same result.
+{% endhint %}
+
+#### Example:
 
 ```text
 The year Today is: $year
@@ -74,19 +93,19 @@ The year Today is: $year
 
 This would just replace $year and output The year Today is: 2021.
 
-Example2:
+#### Example2:
 
 ```text
 Hello my Name is <@$authorID>
 ```
 
-This would just output : Hello my Name is Rake
+This would just output : Hello my Name is &lt;@rake&gt;
 
-Example3:
+#### Example3:
 
 ```text
-$giveRoles[$auhtorID;roleid]
+$giveRoles[$auhtorID;333333333]
 ```
 
-This would return nothing since it executes a functions. The Bot would give the role.
+This would return nothing since it executes a functions. The Bot would give the role to the Executor.
 
