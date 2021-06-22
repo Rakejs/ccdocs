@@ -11,7 +11,7 @@
 
 * [Create first Command](getting-started/create.md)
 * [Begin](getting-started/begin.md)
-* [Trigger](getting-started/trigger.md)
+* [Trigger/Events](getting-started/trigger.md)
 * [Argument](getting-started/argument.md)
 * [Interval/Timed](getting-started/interval.md)
 * [Settings](getting-started/setting.md)

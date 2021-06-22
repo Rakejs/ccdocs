@@ -1,10 +1,20 @@
----
-description: Interval is deactivated and is under development
----
+# Trigger/Events
 
-# Trigger
+{% hint style="info" %}
+**What is a trigger?**  
+The trigger starts an execution of a custom command. If it meets specific requirements it will trigger the command  
+{% endhint %}
 
-There are different Trigger.Our Bot includes the Interval, member add/leave, reaction ,message trigger, voice join/leave
+## All triggertypes/events in overview
+
+* Message : triggers if a User sends a message 
+* Reaction: triggers if a User reacts on a message
+* Join/leave: triggers if a User joins or leaves your Server
+* Interval: triggers on a provided interval
+* Timed: triggers on a provided Time/Date
+* Voice join/leave: triggers if a User joins/leaves a voice channel
+
+The trigger are highly configurable.So you can select **Message** as triggertype and **!help** as trigger. Which would trigger the Custom Command,if a user uses **!help.**
 
 ## Message
 
