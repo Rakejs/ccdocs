@@ -2,7 +2,7 @@
 
 Args are useful when you have custom commands where you have to enter a input
 
-The command must include \| since it is startswith
+The command must include \| since it uses startswith
 
 Example:
 
