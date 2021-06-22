@@ -1,7 +1,5 @@
 # Create first Command
 
-
-
 {% embed url="https://www.youtube.com/watch?v=vmVOn\_XeOes" %}
 
 The Full Tutorial of Custom Command Bot
