@@ -52,8 +52,8 @@
 * [temp functions](custom-commands/temp.md)
 * [set Functions](custom-commands/set.md)
 * [get Functions](custom-commands/get.md)
-* [Text Functions](custom-commands/text.md)
 * [Ticket Functions](custom-commands/ticket.md)
+* [Text Functions](custom-commands/text.md)
 * [Useful Functions](custom-commands/useful.md)
 
 ## Options
