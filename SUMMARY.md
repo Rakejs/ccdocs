@@ -9,6 +9,7 @@
 
 ## Getting Started
 
+* [Create first Command](getting-started/create.md)
 * [Begin](getting-started/begin.md)
 * [Trigger](getting-started/trigger.md)
 * [Argument](getting-started/argument.md)
