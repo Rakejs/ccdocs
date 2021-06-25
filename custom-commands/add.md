@@ -8,24 +8,24 @@ description: this functions add Reaction/Emoji/Object
 
 ### $addCmdReactions\[🎁;😉\]
 
-add Reaction to the trigger.You can add more then one Reaction by adding   ;  with a emoji
+Add reaction to the trigger. You can add multiple reactions by adding `;` after each emoji.
 
 ### $addEmoji\[url;name;return emoji yes/no\(optional\)\]
 
-adds a Emoji to the Server.The url must be under 300 kb size and end with .gif/.png/.jpg.You can return emoji to check it.
+Adds an emoji to the server. The URL of the emoji must be under 300 kb size and should end with `.gif/.png/.jpg`. You can return emoji to check it.
 
 ### $addMessageReactions\[chid;msgid;emoji1;emoji2\]
 
-add Reaction to the messageid .You can add more then one Reaction by adding   ;  with a emoji
+Add a reaction to the message using it's ID. You can add multiple reactions by adding `;` after each emoji.
 
 ### $addObjectProperty\[key;value\]
 
-add properties \(key\) to an object you created.Check create Object  
+Add properties\(key\) to an object that you have created. Check create Object.  
 
 
 ### $addReactions\[🎁;😉\]
 
-add Reaction to the message the bot send.You can add more then one Reaction by adding   ;  with a emoji
+Add reactions to the message that the bot sent. You can add more then one Reaction by adding `;` after each emoji
 
 ```text
 Gift
