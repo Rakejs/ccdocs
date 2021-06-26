@@ -6,7 +6,7 @@
 
 ## $year
 
-this function returns the current year
+This function returns the current year.
 
 ```text
 year: $year 
@@ -16,7 +16,7 @@ year: $year
 
 ## $month
 
-this function returns the current month
+This function returns the current month.
 
 ```text
 month: $month
@@ -28,7 +28,7 @@ month: $month
 
 ## $day or $day\[yes/no\]
 
-this function returns the current day or The Day of the current week if you choose yes
+This function returns the current day or The day of the current week, if you choose yes.
 
 ```text
 day: $day
@@ -40,7 +40,7 @@ day: $day[yes]
 
 ## $hour
 
-this function returns the current hour
+This function returns the current hour.
 
 ```text
 hour: $hour
@@ -50,7 +50,7 @@ hour: $hour
 
 ## $minute
 
-this function returns the current minute
+This function returns the current minute.
 
 ```text
 $minute m
@@ -60,7 +60,7 @@ $minute m
 
 ## $second
 
-this function returns the current seconds
+This function returns the current second.
 
 ```text
 $second s
@@ -70,7 +70,7 @@ $second s
 
 ## $dateStamp
 
-this function returns the number of milliseconds elapsed since January 1, 1970 00:00:00 UTC.
+This function returns the number of milliseconds elapsed since January 1, 1970 00:00:00 UTC.
 
 ```text
 $dateStamp
@@ -80,7 +80,7 @@ $dateStamp
 
 ## $parseDate\[time in ms\(aka Date.now\);time/date\]
 
-this function returns the date from the given ms in Time or Date format  
+This function returns the date from the given ms in `Time` or `Date` format.  
 
 
 ```c
@@ -105,20 +105,20 @@ $day.$month.$year
 
 ## $timezone\[Country/city\]
 
-this function set the Timezone for all date Functions
+This function sets the Timezone for all date functions.
 
 ### $formatDate\[time;format \(optional\)\]
 
-formats the date 
+Formats the date. 
 
-#### Time Options
+#### Time Options:
 
 * datestamp - Example: 1615578797890890
 * ms - Example: 315569267878790ms
 * string date - Example: 1/17/2021, 9:09:19 PM
 * String in ISO - Example: 2000-3-12T14:48:00.000Z
 
-#### Format Options
+#### Format Options:
 
 * Blank \(default\) - Example: Sunday, 14 March 2021
 * LT - Time - Example: 6:01 AM
@@ -128,7 +128,7 @@ formats the date
 * LLLL - - Specified Date w/ Day - Example: Friday, March 12 2021 4:02 AM
 * dddd - Day - Example: Friday
 * HH - Hour - Example: 15
-* check here for more formats
+* **Check here for more formats**
 
 ```javascript
 $formatDate[$dateStamp] //Friday, March 14 2020
@@ -138,7 +138,7 @@ $formatDate[$dateStamp;dddd at hour HH] //Sunday at hour 10
 
 ### $humanizeMS\[ms;limit \(optional\);separator \(optional\)\]
 
-converts ms to human time
+Converts ms to an easy to understand time.
 
 
 
