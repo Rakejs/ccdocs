@@ -13,6 +13,7 @@ The trigger starts an execution of a custom command. If it meets specific requir
 * Interval: triggers on a provided interval
 * Timed: triggers on a provided Time/Date
 * Voice join/leave: triggers if a User joins/leaves a voice channel
+* Button: triggers if a User clicks a created Button from the Bot
 
 The trigger are highly configurable.So you can select **Message** as triggertype and **!help** as trigger. Which would trigger the Custom Command,if a user uses **!help.**
 
@@ -111,5 +112,13 @@ The cc gets executed when a user joins a voice channel or leaves it. You can set
 
 ![executes on voice join and leave](../.gitbook/assets/image%20%2863%29.png)
 
+## Button
 
+Button is like reaction Trigger. It is quite useful since it is highly customizable and you don't have to remove the reaction anymore 
+
+Set the trigger as the **Button id** of the created Button
+
+![executes when the button with the id = customid got clicked](../.gitbook/assets/image%20%2866%29.png)
+
+For creating Buttons pls check [Button functions](../custom-commands/button.md)
 
