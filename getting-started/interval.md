@@ -1,7 +1,3 @@
----
-description: not released yet
----
-
 # Interval/Timed
 
 Interval and Timed Custom Commands are used for automated Execution
