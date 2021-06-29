@@ -55,6 +55,7 @@
 * [get Functions](custom-commands/get.md)
 * [Ticket Functions](custom-commands/ticket.md)
 * [Text Functions](custom-commands/text.md)
+* [Button functions](custom-commands/button.md)
 * [Useful Functions](custom-commands/useful.md)
 
 ## Options

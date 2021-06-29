@@ -9,7 +9,7 @@
 This function returns the current year.
 
 ```text
-year: $year 
+year: $year
 ```
 
 > **Output**: year: 2021
@@ -24,8 +24,6 @@ month: $month
 
 > **Output**: month: 3
 
-
-
 ## $day or $day\[yes/no\]
 
 This function returns the current day or The day of the current week, if you choose yes.
@@ -36,7 +34,7 @@ day: $day[yes]
 ```
 
 > **Output**: day: 14  
->                day:  Sunday
+> day: Sunday
 
 ## $hour
 
@@ -80,16 +78,15 @@ $dateStamp
 
 ## $parseDate\[time in ms\(aka Date.now\);time/date\]
 
-This function returns the date from the given ms in `Time` or `Date` format.  
-
+This function returns the date from the given ms in `Time` or `Date` format.
 
 ```c
 Time :$parseDate[1613076007191;time]
 Date :$parseDate[1613076007191;date]
 ```
 
-> **Output**: Time :55 years 6 months 3 weeks 20 hours 40 minutes and 7 seconds   
->                Date :Thu Feb 11 2021 21:40:07 GMT+0100 \(Central European Standard Time\)
+> **Output**: Time :55 years 6 months 3 weeks 20 hours 40 minutes and 7 seconds  
+> Date :Thu Feb 11 2021 21:40:07 GMT+0100 \(Central European Standard Time\)
 
 ## Example
 
@@ -101,15 +98,13 @@ $day.$month.$year
 
 > **Output**:11.2.2021
 
-
-
 ## $timezone\[Country/city\]
 
 This function sets the Timezone for all date functions.
 
 ### $formatDate\[time;format \(optional\)\]
 
-Formats the date. 
+Formats the date.
 
 #### Time Options:
 
@@ -139,8 +134,6 @@ $formatDate[$dateStamp;dddd at hour HH] //Sunday at hour 10
 ### $humanizeMS\[ms;limit \(optional\);separator \(optional\)\]
 
 Converts ms to an easy to understand time.
-
-
 
 ```javascript
 $humanizeMS[73789790129310] //64 years and 4 months

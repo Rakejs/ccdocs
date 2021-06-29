@@ -6,7 +6,7 @@ description: Copied from dbd.js docs
 
 **Compact functions are really easy to use, they are the replacements for some functions. This functions returns values.**
 
-### $msg\[chid;mid;property\] or $msg\[property\]
+## $msg\[chid;mid;property\] or $msg\[property\]
 
 **Properties**
 
@@ -16,7 +16,7 @@ description: Copied from dbd.js docs
 * authorname - Message's Author's name
 * channel - Message's channel id location
 * channelname - Message's channel name location
-* cleancontent - Message's content without any mentions \(excludes `@here` / `@everyone\`)
+* cleancontent - Message's content without any mentions \(excludes `@here` / `@everyone\`\)
 * content - Message's content
 * created - Message's date and time of creation
 * guildid - Message's guild's id of origin
@@ -26,7 +26,7 @@ description: Copied from dbd.js docs
 * iseditable - Whether or not the author of the command can edit the message, returns a Boolean.
 * ispinnable - Whether or not the author of the command can pin the message, returns a Boolean.
 * ispinned - Whether or not the message is pinned, returns a Boolean.
-* rawcontent - Message's content without ***ANY*** mentions.
+* rawcontent - Message's content without _**ANY**_ mentions.
 * guildname - Message's guild's name of origin.
 * url - Message's URL.
 
@@ -35,9 +35,9 @@ $msg[content]
 //will return the content
 ```
 
-### $role\[rid;property\]
+## $role\[rid;property\]
 
-#### Properties
+### Properties
 
 * name - Role's name.
 * mention - Role's mention.
@@ -60,9 +60,9 @@ $role[1979790790790789;name]
 //returns the name of the role
 ```
 
-### $user\[uid;property\]
+## $user\[uid;property\]
 
-#### Properties
+### Properties
 
 * name - User's name.
 * id - User's ID.
@@ -82,9 +82,9 @@ $user[1979790790790789;name]
 //returns the name of the user with the id
 ```
 
-### $channel\[id;property\] or $channel\[property\]
+## $channel\[id;property\] or $channel\[property\]
 
-#### Properties
+### Properties
 
 * name - Channel's Name.
 * topic - Channel's Topic.
@@ -109,11 +109,11 @@ $channel[797907907097907;name]
 //returns the name of the channel
 ```
 
-### $guild\[property\]
+## $guild\[property\]
 
 guild = Discord Server
 
-#### Properties
+### Properties
 
 * name - Guild's Name. 
 * id - Guild's ID.
@@ -140,9 +140,9 @@ $guild[name]
 //returns the name of the guild
 ```
 
-### $emoji\[emojiID;property\]
+## $emoji\[emojiID;property\]
 
-#### Properties
+### Properties
 
 * name - Emoji's name.
 * id - Emoji's ID.
@@ -158,6 +158,4 @@ $guild[name]
 $emoji[789789790790808;name]
 //returns the emoji's name
 ```
-
-
 
