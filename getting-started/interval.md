@@ -45,5 +45,19 @@ This command shows all running Interval and Timed Event or stopped due to the up
 
 ![](../.gitbook/assets/image%20%2859%29.png)
 
+### $setTimeout function
 
+#### $setTimeout\[time \(like 5s\);name \(optional\);user id \(optional\)\]
+
+Example: 
+
+```text
+$setTimeout[5m;remind;$authorID] 
+Hello world! after 5m
+$endTimeout
+```
+
+{% hint style="warning" %}
+set Timeout creates a temporary Custom Command.So you need enough limit left
+{% endhint %}
 
