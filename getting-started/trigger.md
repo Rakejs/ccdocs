@@ -13,9 +13,10 @@ The trigger starts an execution of a custom command. If it meets specific requir
 * Interval: triggers on a provided interval
 * Timed: triggers on a provided Time/Date
 * Voice join/leave: triggers if a User joins/leaves a voice channel
-* Button: triggers if a User clicks a created Button from the Bot
+* Button: triggers: if a User clicks a created Button from the Bot
+* Role add/remove: If a User gets a Role added/removed ,it can trigger a custom command
 
-The trigger are highly configurable.So you can select **Message** as triggertype and **!help** as trigger. Which would trigger the Custom Command,if a user uses **!help.**
+The trigger are highly configurable. So you can select **Message** as triggertype and **!help** as trigger. Which would trigger the Custom Command, if a user uses **!help.**
 
 ## Message
 
@@ -121,4 +122,20 @@ Set the trigger as the **Button id** of the created Button
 ![executes when the button with the id = customid got clicked](../.gitbook/assets/image%20%2866%29.png)
 
 For creating Buttons pls check [Button functions](../custom-commands/button.md)
+
+## Role add/remove
+
+When a Bot/Moderator adds a Role to a User it can trigger a Custom Command. This can be used for Server Boost tracking too or Configuration with other Bots.
+
+![triggers on role add and remove](../.gitbook/assets/image%20%2868%29.png)
+
+The number is roleid ,It is still possible to use the rolename
+
+![](../.gitbook/assets/image%20%2867%29.png)
+
+You can specify,if it should trigger on Role add or remove by adding `add,` or `remove,` before the role\(id/name\)
+
+![](../.gitbook/assets/image%20%2870%29.png)
+
+![](../.gitbook/assets/image%20%2869%29.png)
 
