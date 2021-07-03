@@ -135,7 +135,13 @@ The number is roleid ,It is still possible to use the rolename
 
 You can specify,if it should trigger on Role add or remove by adding `add,` or `remove,` before the role\(id/name\)
 
+![](../.gitbook/assets/image%20%2871%29.png)
+
 ![](../.gitbook/assets/image%20%2870%29.png)
+
+### Using role trigger for Server Boost tracking
+
+1.Get the role id in Server Settings 
 
 ![](../.gitbook/assets/image%20%2869%29.png)
 
