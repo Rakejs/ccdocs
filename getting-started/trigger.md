@@ -125,6 +125,10 @@ For creating Buttons pls check [Button functions](../custom-commands/button.md)
 
 ## Role add/remove
 
+{% hint style="warning" %}
+Role add/remove ,compares the old user with the new. That's why the user must be cached ,to check which role got added. To cache the Member: The Member have to execute a Custom Command like type of reaction, message and so on . 
+{% endhint %}
+
 When a Bot/Moderator adds a Role to a User it can trigger a Custom Command. This can be used for Server Boost tracking too or Configuration with other Bots.
 
 ![triggers on role add and remove](../.gitbook/assets/image%20%2868%29.png)
@@ -141,7 +145,9 @@ You can specify,if it should trigger on Role add or remove by adding `add,` or `
 
 ### Using role trigger for Server Boost tracking
 
-1.Get the role id in Server Settings 
+1.Get the role id in Server Settings  and set as Trigger `add,roleid`
 
 ![](../.gitbook/assets/image%20%2869%29.png)
+
+
 
