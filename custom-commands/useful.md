@@ -30,3 +30,28 @@ this function returns the creationDate of the chosen id and in the format you ch
 
 encodes/decodes a uri to pass a proper query for a search request Like 'Hello World' would be encoded 'Hello%20World'
 
+## $forEach
+
+Will loop over a list and every loop it will take an item and assign in inside varname accessible by $get\[varname\]
+
+**Usage:** `$forEach[varname;LIST (ex: mido rake azz);Seperator (Optional, default is space)] SOME CODE HERE... $endForEach`
+
+**Example:**
+
+```bash
+$forEach[name;mido rake azz blek felix] 
+Hello $get[name] 
+$endForEach 
+
+Output: 
+Hello mido 
+Hello rake 
+Hello azz 
+Hello blek 
+Hello felix
+```
+
+\*\*\*\*
+
+
+
