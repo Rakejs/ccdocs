@@ -38,3 +38,19 @@ Remove a button from a message by \(label/emoji/url/id\)
 
  **Example \(Remove Button by label\):**`$removeButton[863xxxxxxxxxx21130;Visit example.com] Example (Remove Last button): $removeButton[863xxxxxxxxxx21130]`
 
+## $disableButton
+
+Usage: ****`$disableButton[Message ID;Label/Emoji/URL/ID (optional, empty means removing the last button)]`
+
+Example:
+
+```bash
+Example (Disable Button by label):
+$disableButton[863xxxxxxxxxx21130;Visit example.com]
+
+Example (Remove Last button):
+$disableButton[863xxxxxxxxxx21130]
+```
+
+
+

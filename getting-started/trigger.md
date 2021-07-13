@@ -117,7 +117,8 @@ The cc gets executed when a user joins a voice channel or leaves it. You can set
 
 Button is like reaction Trigger. It is quite useful since it is highly customizable and you don't have to remove the reaction anymore 
 
-Set the trigger as the **Button id** of the created Button
+Set the trigger as the **Button id** of the created Button.  
+You can use multiple Buttons by splitting it with \| like id\|id2\|id3 or by using regex
 
 ![executes when the button with the id = customid got clicked](../.gitbook/assets/image%20%2866%29.png)
 
