@@ -36,7 +36,7 @@ You can find here how to setup custom bot. You need this if you have tier 3 by r
 
 ![](../.gitbook/assets/image%20%2851%29.png)
 
-8.Go to our Dashboard and select the server where you have premium.
+8.Go to the Dashboard and select the server where you want to have premium.
 
 ![](../.gitbook/assets/image%20%2850%29.png)
 
