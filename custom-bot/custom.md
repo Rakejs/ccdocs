@@ -40,7 +40,7 @@ You can find here how to setup custom bot. You need this if you have tier 3 by r
 
 ![](../.gitbook/assets/image%20%2850%29.png)
 
-9. Enter the copied Application ID and Copied Token
+1. Enter the copied Application ID and Copied Token
 
 10.Change the Prefix from `!!` to any of your choice
 

@@ -51,7 +51,44 @@ Hello blek
 Hello felix
 ```
 
+#### $seq\[Start;End;Step \(optional, default=1\)\]
+
+Usage in $forEach
+
+```bash
+$forEach[num;$seq[0;5]]
+ Number $num
+$endForEach
+```
+
+## **$function**
+
+Create a user-defined function that can be called by $callFunction or $functionName \(see !!func $callFunction\) **Note:** function name cant start with number, and must be within \[A-Z or a-z or \_ or 0-9\]
+
+Usage
+
+```text
+$function[Function name;Param 1 (optional);Param 2...(optional)]
+CODE...
+$endFunction
+
+Example Of Printing Hello To a user:
+$function[printHello;user]
+    Hello $user
+$endFunction
+$printHello[Rake]
+
+Output: Hello Rake
+
+Same Example but with $return:
+$function[printHello;user]
+    $return[Hello $user]
+    [This message wont be returned]
+$endFunction
+$printHello[Rake]
+
+Output: Hello Rake
+```
+
 \*\*\*\*
-
-
 

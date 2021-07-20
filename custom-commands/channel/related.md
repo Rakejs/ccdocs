@@ -46,5 +46,17 @@ like
 
 sets the new channel Used. Bot will send all Message from there
 
+##  $moveUser & $muteUser
 
+Description:  
+Move an user from a voice channel or disconnect them if optional params are not provided  
+Mutes a user in the voice channel
+
+Usage
+
+```text
+$moveUser[userID;channelID (optional);reason (optional)]
+```
+
+`$muteUser[userID;mute (yes/no);reason (optional)]`
 
