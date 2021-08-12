@@ -75,3 +75,15 @@ $giveRoles[$auhtorID;333333333]
 
 This would return nothing since it executes a functions. The Bot would give the role to the Executor.
 
+#### Example: Multiplie line code
+```
+$let[bal;0]
+Current bal: $bal
+$let[bal;10]
+After change: $bal
+```
+Output:
+Current bal: 0
+After change:10 
+The code shows that it gets executed from top to bottom.
+The function $let defines a temp var ,which you retrive with $bal
