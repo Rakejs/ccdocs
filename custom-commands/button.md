@@ -52,5 +52,14 @@ Example (Remove Last button):
 $disableButton[863xxxxxxxxxx21130]
 ```
 
+## $editButton
 
+Edit a button of a message
+
+```text
+$editButton[Message ID;query \(optional\);label/style/emoji/disabled/url/custom_id;new value]
+Available Button Colors: red, green, blurple, grey 
+Example: 
+$editButton[863xxxxxxxxxx21130;example;style;blurple]
+```
 
