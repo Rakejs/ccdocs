@@ -6,7 +6,7 @@ description: >-
 
 # Useful Functions
 
-## $executionTime
+## $executionTime (currently bugged)
 
 returns the time the bot needed to execute the code
 
@@ -88,6 +88,16 @@ $endFunction
 $printHello[Rake]
 
 Output: Hello Rake
+```
+
+#### $setTimeout\[Time;Command Name \(optional, default=undefined\)\;command author \(optional, default=$authorID\)\]
+
+Usage:
+
+```bash
+$setTimeout[2h;this is a fantastic command name]
+This code will get executed after 2 hours \(check the syntax tab for info about time formats)
+$endTimeout
 ```
 
 \*\*\*\*
