@@ -91,6 +91,6 @@ like `$checkCondition[hi==hi]` would return true
 
 `&lt;` - Use this sign to check if number string 1 is smaller then number string 2
 
-{% hint style="info" %}
+{% hint style="warning" %}
 Please keep in mind, that if/ onlyIf statements use EXACT match! So if I would check\: `$if\[ccommandbot.ga==Ccommandbot.ga\]` it will be false, because of the capital `C`
 {% endhint %}
