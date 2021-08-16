@@ -75,5 +75,22 @@ this will check the condition and return true/false
 
 like `$checkCondition[hi==hi]` would return true
 
+## Syntax
 
+### Exact Match
 
+`==` - Use this 2 signs to check if 2 values EXACTLY match eatch other.
+
+`!=` - Use this 2 signs to check if 2 values do NOT match each other. 
+
+`&gt;=` - Use this 2 signs to check if number string 1 greater is, or the same as number string 2
+
+`&lt;=` - Use this 2 signs to check if number string 1 is smaller, or the same as number string 2
+
+`&gt;` - Use this sign to check if number string 1 is greater then number string 2
+
+`&lt;` - Use this sign to check if number string 1 is smaller then number string 2
+
+{% hint style="info" %}
+Please keep in mind, that if/ onlyIf statements use EXACT match! So if I would check\: `$if\[ccommandbot.ga==Ccommandbot.ga\]` it will be false, because of the capital `C`
+{% endhint %}
