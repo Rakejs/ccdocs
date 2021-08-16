@@ -45,9 +45,9 @@ returns the channel topic from the given id or the channel Used
 
 returns the channel type from the given id or the channel Used
 
-### $channelUsed
+### $channelUsed\[channelid\]
 
-returns the used Channel
+returns the used Channel, or changes the Channel used setting to the ID specified in the between the \[ \]
 
 ### $channelPermissionsFor\[channelid\(optional\),userid\]
 
