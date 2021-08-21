@@ -37,6 +37,10 @@ returns if the channel is a nsfw channel true/false or with the given id
 
 send a mesage to the channel. You can return the messageid to edit again
 
+### $sendMessage\[yourmessage;return messageid\(yes/no\)\ \(needed!!\)] 
+
+Sends a mesage to the channel, set in $channelUsed. You can return the messageid to edit again
+
 ### $channelType\[channelid\] or $channelType
 
 returns the channel topic from the given id or the channel Used
@@ -56,4 +60,16 @@ returns the channel Permission for the user with given channel id or channelUsed
 ### $systemChannelID
 
 returns the system channel id of the guild .Mostly the first channel
+
+{% hint style="warning" %}
+The following functions are PREMIUM only!
+{% endhint %}
+
+### $DM\[userID\(optional)\] 
+
+Redirects text in the code to the DM of a user
+
+### $sendDM\[userID;message;return messageid\(yes/no\)\]
+
+sends a message to the DM of a user
 
