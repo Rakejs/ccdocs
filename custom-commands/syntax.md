@@ -54,13 +54,13 @@ Check out {% page-ref page="trigger.md" %} to see all triggers that can be used!
 
 `!=` - Use this 2 signs to check if 2 values do NOT match each other. 
 
-`&gt;=` - Use this 2 signs to check if number string 1 greater is, or the same as number string 2
+`>=` - Use this 2 signs to check if number string 1 greater is, or the same as number string 2
 
-`&lt;=` - Use this 2 signs to check if number string 1 is smaller, or the same as number string 2
+`<=` - Use this 2 signs to check if number string 1 is smaller, or the same as number string 2
 
-`>;` - Use this sign to check if number string 1 is greater then number string 2
+`>` - Use this sign to check if number string 1 is greater then number string 2
 
-`<;` - Use this sign to check if number string 1 is smaller then number string 2
+`<` - Use this sign to check if number string 1 is smaller then number string 2
 
 ## Escaping Characters
 
