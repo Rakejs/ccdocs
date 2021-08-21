@@ -15,8 +15,10 @@ Please note:
 
 The bot will only trigger commands, when it can see the channel! Make sure the bot has permissions to view the channel you use for the command. And make sure "Send Messages" is enabled!
 
-Also, check out this page for settings that might be a problem for your commands! {% page-ref page="settings.md" %}
+Also, check out the page below for settings that might be a problem for your commands!
 {% endhint %}
+
+{% page-ref page="settings.md" %}
 
 **Default syntax's, unique to our bot:**
 
@@ -29,9 +31,20 @@ Also, check out this page for settings that might be a problem for your commands
 
 **REGEX syntax's:**
 
-Comming soon! Stay tuned
+{% hint style="warning" %}
+REGEX is for advanced users only! Or you need to already know REGEX. For more info about it, please join our support server and ask for it.
+
+We higly suggest, you learn REGEX yourself if you want to use it for all your commands!
+{% endhint %}
 
 
+REGEX to trigger a command with multiple prefixes
+
+```/(^)(PREFIXES, SPLITTED WITH `|`)YOUR TRIGGER HERE/gi```
+
+Check if a message contain (a) specfic word(s)
+
+```/(^|\s)(WORD 1|WORD 2|WORD 3|enz...)/gi```
 
 ### Reactions:
 
@@ -45,7 +58,7 @@ Comming soon! Stay tuned
 
 
 {% hint style="info" %}
-Check out {% page-ref page="trigger.md" %} to see all triggers that can be used!
+Check out the trigger info page to see all triggers that can be used!
 {% endhint %}
 
 ## $if/ $onlyIf statements
