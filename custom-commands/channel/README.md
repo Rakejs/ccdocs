@@ -61,15 +61,18 @@ returns the channel Permission for the user with given channel id or channelUsed
 
 returns the system channel id of the guild .Mostly the first channel
 
-{% hint style="warning" %}
-The following functions are PREMIUM only!
-{% endhint %}
-
 ### $DM\[userID\(optional)\] 
 
 Redirects text in the code to the DM of a user
+
+{% hint style="warning" %}
+This function is PREMIUM Only
+{% endhint %}
 
 ### $sendDM\[userID;message;return messageid\(yes/no\)\]
 
 sends a message to the DM of a user
 
+{% hint style="warning" %}
+This function is PREMIUM Only
+{% endhint %}
