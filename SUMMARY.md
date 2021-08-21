@@ -20,6 +20,7 @@
 ## Custom Commands
 
 * [All Function Listed](https://discord.gg/ZFQNZA4Ekz)
+* [Syntax] (custom-commands/syntax.md)
 * [if functions](custom-commands/if.md)
 * [Date functions](custom-commands/date.md)
 * [Math functions](custom-commands/math.md)
