@@ -24,6 +24,12 @@ You can find here how to setup custom bot. You need this if you have tier 3 by r
 
 ![go to auth2 and generate an invite link](../.gitbook/assets/image%20%2854%29.png)
 
+{% hint style="warning" %} 
+Please note! Discord needs privaliged intents! Enable them if you want to use the following triggers:
+
+"Join/leave" "role add/remove" 
+{% endhint %}
+
 5.Choose on OAuth2 bot and under it the permissions you want to give the bot
 
 6.Copy the link and invite the bot to your server
