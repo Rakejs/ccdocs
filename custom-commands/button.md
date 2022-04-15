@@ -1,46 +1,46 @@
 # Button functions
 
-### $button\[label;style/url;link/id;emoji\(optional\)\]
+### $button\[label;style/url;link/id;emoji(optional)]
 
 `$button[label;style/url;link/id;emoji(optional)]`
 
-#### Example\(button\): 
+#### Example(button):
 
 `$button[B;green;id]`
 
-**Example\(emoji\):**  
+**Example(emoji):**\
 `$button[emoji;red;id;🚚]` `$button[emoji;red;id;$customEmoji[emojiname]]`
 
-**Example\(link\):**   
+**Example(link):**\
 `$button[B;url;`[`https://example.com`](https://example.com)`]`
 
 Available Button Colors: _red, green, blurple, gray/grey_
 
-_Do send a button the message needs a content for Example  
-!!exec a_ `$button[B;url;https://example.com]`
+_Do send a button the message needs a content for Example_\
+_!!exec a_ `$button[B;url;https://example.com]`
 
 ## $addButton
 
 Adding a button to a message
 
-```text
+```
 $addButton[Message ID;Label;style/url;link/id;emoji(optional)] 
 Available Button Colors: red, green, blurple, grey 
 Example: 
 $addButton[863xxxxxxxxxx21130;Visit example.com;url;https://example.com]
 ```
 
-## $removeButton 
+## $removeButton
 
-Remove a button from a message by \(label/emoji/url/id\)
+Remove a button from a message by (label/emoji/url/id)
 
 **Usage:** `$removeButton[Message ID;Label/Emoji/URL/ID (optional, empty means removing the last button)]`
 
- **Example \(Remove Button by label\):**`$removeButton[863xxxxxxxxxx21130;Visit example.com] Example (Remove Last button): $removeButton[863xxxxxxxxxx21130]`
+**Example (Remove Button by label):**`$removeButton[863xxxxxxxxxx21130;Visit example.com] Example (Remove Last button): $removeButton[863xxxxxxxxxx21130]`
 
 ## $disableButton
 
-Usage: ****`$disableButton[Message ID;Label/Emoji/URL/ID (optional, empty means removing the last button)]`
+Usage: _\*\*_`$disableButton[Message ID;Label/Emoji/URL/ID (optional, empty means removing the last button)]`
 
 Example:
 
@@ -56,10 +56,9 @@ $disableButton[863xxxxxxxxxx21130]
 
 Edit a button of a message
 
-```text
+```
 $editButton[Message ID;query \(optional\);label/style/emoji/disabled/url/custom_id;new value]
 Available Button Colors: red, green, blurple, grey 
 Example: 
 $editButton[863xxxxxxxxxx21130;example;style;blurple]
 ```
-

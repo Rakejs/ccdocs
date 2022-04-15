@@ -1,7 +1,7 @@
 # Table of contents
 
 * [Custom Commands](README.md)
-* [Dashboard](https://ccommandbot.ga)
+* [Dashboard](https://ccommandbot.com)
 
 ## Example
 
@@ -34,7 +34,7 @@
   * [related Functions](custom-commands/channel/related.md)
 * [Role functions](custom-commands/role/README.md)
   * [related functions](custom-commands/role/related.md)
-* [User\(member\) functions](custom-commands/user/README.md)
+* [User(member) functions](custom-commands/user/README.md)
   * [related Functions](custom-commands/user/related.md)
 * [Embeds](custom-commands/embeds.md)
 * [Message functions](custom-commands/message/README.md)
@@ -61,11 +61,10 @@
 
 ## Options
 
-* [permission](options/untitled.md)
+* [permission](options/permission.md)
 * [message](options/message.md)
 * [embeds](options/embed.md)
 
 ## Custom Bot
 
 * [Custom Bot](custom-bot/custom.md)
-
