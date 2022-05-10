@@ -2,53 +2,46 @@
 
 ## Custom Bot
 
-You can find here how to setup custom bot. You need this if you have tier 3 by redeeming it or by winning in our support server.
+You can find here how to setup custom bot. You need this if you have tier 3+ by redeeming it or by winning in our support server.
+1. Go to [Discord Dev Portal](https://discord.com/developers/applications)
 
-1.Go Discord Dev Portal [https://discord.com/developers/applications](https://discord.com/developers/applications)
+
+2. Create a new Application
 
 ![](../.gitbook/assets/image%20%2844%29.png)
 
-2.Create a new Application
+
+3. Enter a name and press the create button
 
 ![](../.gitbook/assets/image%20%2845%29.png)
 
-3.Enter a name and press the create button
-
+4. Go to `Bot` and click `Add Bot`
 ![go to section bot](../.gitbook/assets/image%20%2848%29.png)
 
 ![](../.gitbook/assets/image%20%2846%29.png)
 
-4.Press the add button
-
 ![you can customize it if you want](../.gitbook/assets/image%20%2852%29.png)
 
-![go to auth2 and generate an invite link](../.gitbook/assets/image%20%2854%29.png)
+5. Enable the intents
+![enable the intent](../.gitbook/assets/enable_intents.jpg)
 
-{% hint style="warning" %} 
-Please note! Discord needs privaliged intents! Enable them if you want to use the following triggers:
+6. Generate the invitation link, copy it and invite the bot to your server
+![generating the invite link](../.gitbook/assets/generate_invite_link.png)
 
-"Join/leave" "role add/remove" 
-{% endhint %}
-
-5.Choose on OAuth2 bot and under it the permissions you want to give the bot
-
-6.Copy the link and invite the bot to your server
-
+7. Copy the `Application ID` and `Token` to your Clipboard
 ![](../.gitbook/assets/image%20%2849%29.png)
 
 ![](../.gitbook/assets/image%20%2853%29.png)
 
-7.Copy the Application id and Token to your Clipboard
-
+8. Go to the Dashboard and select the server where you want to have premium.
 ![](../.gitbook/assets/image%20%2851%29.png)
 
-8.Go to the Dashboard and select the server where you want to have premium.
+- Then paste the copied `Application ID` and `Token` to `Client ID` and `Token`
 
 ![](../.gitbook/assets/image%20%2850%29.png)
 
-1. Enter the copied Application ID and Copied Token
+9.Change the Prefix from `!!` to any of your choice
 
-10.Change the Prefix from `!!` to any of your choice
+10.Press `Save Bot` and your bot should go online
 
-11.Press save Bot and your bot should go online
-
+and that's it.
